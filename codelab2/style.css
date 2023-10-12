@@ -17,9 +17,17 @@ label, input {
 }
 
 input[type="submit"] {
+    border-radius: 5%;
     background-color: #007bff;
     color: #fff;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
 }
