@@ -4,6 +4,15 @@ function jumlahkan() {
 
     var hasil = bilangan1 + bilangan2;
 
-    // Menampilkan hasil dalam sebuah popup message
     window.alert("Hasil Penjumlahan: " + hasil);
+}
+
+function clearForm() {
+    var number1Input = document.getElementById("number1");
+    var number2Input = document.getElementById("number2");
+
+    number1Input.value = "";
+    number2Input.value = "";
+
+    number1Input.focus(); 
 }

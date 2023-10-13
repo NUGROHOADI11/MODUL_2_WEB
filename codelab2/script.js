@@ -1,13 +1,14 @@
 function validateForm() {
   var nama = document.getElementById("nama").value;
   var email = document.getElementById("email").value;
-  var password = document.getElementById("password").value;
+  var alamat = document.getElementById("alamat").value;
 
-  if (nama === "" || email === "" || password === "") {
+  if (nama === "" || email === "" || alamat === "") {
     alert("Harap isi semua kolom");
     return false;
+  } else {
+    alert("makaseeeeeeeeeeeeeeeeeeeee");
   }
-  alert("makaseeeeeeeeeeeeeeeeeeeee");
 
   return true;
 }

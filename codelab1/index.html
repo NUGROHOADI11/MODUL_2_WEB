@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- ... (bagian head lainnya) ... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
     <h1>Penjumlahan Bilangan</h1>
     <form id="calculator">
-        <label for="number1">Bilangan 1:</label>
+        <label for="number1">Bilangan pertama:</label>
         <input type="number" id="number1" required>
-        <br>
-        <label for="number2">Bilangan 2:</label>
+        <label for="number2">Bilangan kedua:</label>
         <input type="number" id="number2" required>
         <br>
         <input type="button" value="Hitung" onclick="jumlahkan()">
+        <input type="button" value="Ulang" onclick="clearForm()">
     </form>
 
     <script src="script.js"></script>

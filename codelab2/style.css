@@ -1,19 +1,32 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: lightblue;
 }
 
-h1 {
+h2 {
     text-align: center;
 }
 
 form {
     max-width: 300px;
-    margin: 0 auto;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 1%;
 }
 
 label, input {
     display: block;
     margin-bottom: 10px;
+    width: 90%;
+}
+
+#alamat {
+    min-height: 100px;
+}
+
+#submit {
+    width: 30%;
 }
 
 input[type="submit"] {
